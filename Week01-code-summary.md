@@ -65,7 +65,7 @@
       >cabal repl
       >```
       
-* <strong>(inside nix-shell)</strong> Check plutus documentation to check definition & other helps
+* <strong>(inside nix-shell)</strong> Get out of the EnglishAuction `cabal repl` then check plutus documentation to check definition & other helps
 >```
 >build-and-serve-docs
 >```
@@ -80,26 +80,29 @@ e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set vari
 
     1. Get into nix-shell and start the server
     >```
+    >cd ~/Desktop/Plutus-Pioneer-Program/plutus-apps/
     >nix-shell
     >```
     ><strong>(inside nix-shell)</strong>
     >```
-    >cd ~/plutus-apps/plutus-playground-client
+    >cd plutus-playground-client
     >GC_DONT_GC=1 plutus-playground-server   
     >```
     2. Open another nix-shell, go the same directory and start the playground client
     >```
+    >cd ~/Desktop/Plutus-Pioneer-Program/plutus-apps/
     >nix-shell
     >```
     ><strong>(inside nix-shell)</strong>
     >```
-    >cd ~/plutus-apps/plutus-playground-client
-    >GC_DONT_GC=1 npm start
+    >cd plutus-playground-client
+    >GC_DONT_GC=1 npm run start
     >```
 
     3. Open the address browser and use the playground there: http://localhost:8009
-    4. Paste in the english option code
+    4. Clear the Hellow Word codes and paste in the english option code inside `~/Desktop/Plutus-Pioneer-Program/plutus-pioneer-program/code/week01/src/Week01/`
     5. Click compile then simulate
+    6. The rest simulation and scenario testing follows the video and interact with local instance: http://localhost:8009
 
 
 ## Questions to be asked
