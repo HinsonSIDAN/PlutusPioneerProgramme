@@ -1,4 +1,14 @@
 # Week01
+
+## Skeleton
+* BIG TOPIC
+
+  * TOPIC 1
+
+    1. SUB-STEPS1
+    2. SUB-STEPS2
+    3. SUB-STEPS3
+
 ## Part 3
 * Look up the latest repo package use for the week
 
@@ -60,3 +70,29 @@ build-and-serve-docs
 ```
 
 e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set variable: http://localhost:8002/haddock/
+
+## Part 5
+
+* BIG TOPIC
+
+  * TOPIC 1
+
+    1. Get into nix-shell and start the server
+    ```
+    nix-shell
+    
+    # inside nix-shell
+    cd ~/plutus-apps/plutus-playground-client
+    GC_DONT_GC=1 plutus-playground-server   
+    ```
+    2. Open another nix-shell, go the same directory and start the playground client
+    ```
+    nix-shell
+    
+    # inside nix-shell
+    cd ~/plutus-apps/plutus-playground-client
+    GC_DONT_GC=1 npm start
+    ```
+
+    3. Open the address browser and use the playground there: http://localhost:8009
+    4. Click compile then simulate
