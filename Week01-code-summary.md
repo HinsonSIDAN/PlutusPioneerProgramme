@@ -1,58 +1,69 @@
 # Week01
 
+## Pre-setup
+* cloning the `plutus-apps` repository & `plutus-pioneer-program` repository to a selected folder of self's choice, for example, I created a `Plutus-Pioneer-Program` in my desktop:
+
+1. Open Terminal
+
+2. Go to the selected directory:
+>```
+>cd Desktop/Plutus-Pioneer-Program/
+>```
+
+3. Clone the repository needed
+>```
+>git clone https://github.com/input-output-hk/plutus-pioneer-program/
+>git clone https://github.com/input-output-hk/plutus-apps/
+>```
+
 ## Part 3
 * Look up the latest repo package use for the week
 
   *  Look up the check-out hash for relevant repository
   
-      1. Go to the `cabal.project` file inside `week01` through:
-      ```
-      # outside nix-shell
-      cd ~/plutus-pioneer-program/code/week01
-      less cabal project
-      ```
+      1. <strong>(outside nix-shell)</strong> Go to the `cabal.project` file inside `week01` through: 
+      >```
+      >cd plutus-pioneer-program/code/week01
+      >less cabal.project
+      >```
       2. Find something like:
-      ```
-      source-repository-package
-        type: git
-        location: https://github.com/input-output-hk/plutus-apps.git
-        tag: 4114xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-        subdir:
-          xxx
-          xxx
-          xxx
-      ```
-      3. Take out the tag hash `4114xxxxxxxxxx` and go to `plutus-apps` repo clone and checkout through
-      ```
-      # outside nix-shell
-      git checkout 4114xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-      ```
+      >```
+      >source-repository-package
+      >  type: git
+      >  location: https://github.com/input-output-hk/plutus-apps.git
+      >  tag: 41149926c108c71831cfe8d244c83b0ee4bf5c8a
+      >  subdir:
+      >    xxx
+      >    xxx
+      >    xxx
+      >```
+      3. <strong>(outside nix-shell)</strong> Take out the tag hash `4114xxxxxxxxxx` and go to `plutus-apps` repo clone and checkout through 
+      >```
+      >cd ~/Desktop/Plutus-Pioneer-Program/plutus-apps/
+      >git checkout 41149926c108c71831cfe8d244c83b0ee4bf5c8a
+      >```
 
   * Update it inside the nix-shell
   
-      1. Running nix-shell inside `plutus-apps` directory
-      ```
-      # outside nix-shell
-      nix-shell
-      ```
+      1. <strong>(outside nix-shell)</strong> Running nix-shell inside `plutus-apps` directory
+      >```
+      >nix-shell
+      >```
       
-      2. Go to the respective folder, e.g. week01 as below 
-      ```
-      # inside nix-shell
-      cd ~/plutus-pioneer-program/code/week01
-      ```
+      2. <strong>(inside nix-shell)</strong> Go to the respective folder, e.g. week01 as below 
+      >```
+      >cd ~/plutus-pioneer-program/code/week01
+      >```
       
-      3. Execute to build, which might take some time
-      ```
-      # inside nix-shell / week folder
-      cabal build
-      ```
+      3. <strong>(inside nix-shell)</strong> Execute to build, which might take some time
+      >```
+      >cabal build
+      >```
       
-      4. If you want a repl
-      ```
-      # inside nix-shell / week folder
-      cabal repl
-      ```
+      4. <strong>(inside nix-shell)</strong> If you want a repl
+      >```
+      >cabal repl
+      >```
       
 * Check plutus documentation to check definition & other helps
 
