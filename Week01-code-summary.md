@@ -5,9 +5,10 @@
 
   *  Look up the check-out hash for relevant repository
   
-      1. Go to the `cabal.project` file inside week01 through:
+      1. Go to the `cabal.project` file inside `week01` through:
       ```
       # outside nix-shell
+      cd ~/code/haskell/plutus-pioneer-program/code/week01
       less cabal project
       ```
       2. Find something like:
