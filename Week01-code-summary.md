@@ -52,7 +52,7 @@
       
       2. <strong>(inside nix-shell)</strong> Go to the respective folder, e.g. week01 as below 
       >```
-      >cd ~/plutus-pioneer-program/code/week01
+      >cd ~/Desktop/Plutus-Pioneer-Program/plutus-pioneer-program/code/week01
       >```
       
       3. <strong>(inside nix-shell)</strong> Execute to build, which might take some time
@@ -65,12 +65,10 @@
       >cabal repl
       >```
       
-* Check plutus documentation to check definition & other helps
-
-```
-# inside nix-shell / plutus-apps folder
-build-and-serve-docs
-```
+* <strong>(inside nix-shell)</strong> Check plutus documentation to check definition & other helps
+>```
+>build-and-serve-docs
+>```
 
 e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set variable: http://localhost:8002/haddock/
 
@@ -81,21 +79,23 @@ e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set vari
   * Follow below steps
 
     1. Get into nix-shell and start the server
-    ```
-    nix-shell
-    
-    # inside nix-shell
-    cd ~/plutus-apps/plutus-playground-client
-    GC_DONT_GC=1 plutus-playground-server   
-    ```
+    >```
+    >nix-shell
+    >```
+    ><strong>(inside nix-shell)</strong>
+    >```
+    >cd ~/plutus-apps/plutus-playground-client
+    >GC_DONT_GC=1 plutus-playground-server   
+    >```
     2. Open another nix-shell, go the same directory and start the playground client
-    ```
-    nix-shell
-    
-    # inside nix-shell
-    cd ~/plutus-apps/plutus-playground-client
-    GC_DONT_GC=1 npm start
-    ```
+    >```
+    >nix-shell
+    >```
+    ><strong>(inside nix-shell)</strong>
+    >```
+    >cd ~/plutus-apps/plutus-playground-client
+    >GC_DONT_GC=1 npm start
+    >```
 
     3. Open the address browser and use the playground there: http://localhost:8009
     4. Paste in the english option code
