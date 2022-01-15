@@ -73,9 +73,9 @@ e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set vari
 
 ## Part 5
 
-* BIG TOPIC
+* Starting the local plutus playground
 
-  * TOPIC 1
+  * Follow below steps
 
     1. Get into nix-shell and start the server
     ```
@@ -95,4 +95,8 @@ e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set vari
     ```
 
     3. Open the address browser and use the playground there: http://localhost:8009
-    4. Click compile then simulate
+    4. Paste in the english option code
+    5. Click compile then simulate
+
+
+## Questions to be asked
