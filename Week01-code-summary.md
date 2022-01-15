@@ -8,7 +8,7 @@
       1. Go to the `cabal.project` file inside `week01` through:
       ```
       # outside nix-shell
-      cd ~/code/haskell/plutus-pioneer-program/code/week01
+      cd ~/plutus-pioneer-program/code/week01
       less cabal project
       ```
       2. Find something like:
@@ -39,7 +39,7 @@
       2. Go to the respective folder, e.g. week01 as below 
       ```
       # inside nix-shell
-      cd ~/code/haskell/plutus-pioneer-program/code/week01
+      cd ~/plutus-pioneer-program/code/week01
       ```
       
       3. Execute to build, which might take some time
