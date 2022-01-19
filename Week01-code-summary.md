@@ -107,6 +107,9 @@ e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set vari
 
 ## Questions to be asked
 
+1. What kind of interaction with chain consume fee?
+2. Can ADA locked in a contract be staked?
+
 ## Skeleton for my own quick reference use
 * BIG TOPIC
 
