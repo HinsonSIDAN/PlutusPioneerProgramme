@@ -101,7 +101,7 @@ e.g. in my mac, go to web browser with http://localhost:8002. Check pre-set vari
 
     3. Open the address browser and use the playground there: http://localhost:8009
     4. Clear the Hellow Word codes and paste in the english option code inside `~/Desktop/Plutus-Pioneer-Program/plutus-pioneer-program/code/week01/src/Week01/`
-    5. Click compile then simulate
+    5. Delete some lines of code as the video demonstrated, click compile then simulate
     6. The rest simulation and scenario testing follows the video and interact with local instance: http://localhost:8009
 
 
