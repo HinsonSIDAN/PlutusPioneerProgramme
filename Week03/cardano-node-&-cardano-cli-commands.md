@@ -43,6 +43,7 @@ Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgr
 * Once the node is started, it takes several hours to sync.
 
 ## Using cardano-cli
+### Note before start
 * Before getting started, the `cardano-cli` also needs to point to the 1.33 version as downloaded. The below action needs to be performed everytime restarting the `nix-shell`:
 >```
 >alias cardano-cli='~/Desktop/Plutus-Pioneer-Program/plutus-pioneer-program/code/week03/testnet/testnet_1.33/cardano-node-1.33.0-macos/cardano-cli'
@@ -53,6 +54,7 @@ Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgr
 >~/Desktop/Plutus-Pioneer-Program/plutus-pioneer-program/code/week03/testnet/
 >```
 
+### cardano-cli examples
   * `cardano-cli address`
     1. To create addresses with a pair of verification key and signing key. E.g. creating a `01` address & `02` address as below:
     >```
@@ -69,8 +71,27 @@ Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgr
     >cardano-cli address build --payment-verification-key-file 01.vkey --testnet-magic 1097911063 --out-file 01.addr
     >cardano-cli address build --payment-verification-key-file 02.vkey --testnet-magic 1097911063 --out-file 02.addr
     >```
+    >After obtaining the `01.addr`, can use the address revealed by `cat 01.addr` to request tADA in the [(faucet)](https://testnets.cardano.org/en/testnets/cardano/tools/faucet/)
     
-    3. SUB-STEPS3
+    3. Create payment key-hash for smart contract uses, e.g. creating a key hash for address 02 and put the result in `02.pkh`.
+    >```
+    >cardano-cli address key-hash --payment-verification-key-file 02.vkey --outfile 02.pkh
+    >```
+    
+    4. To create script address (smart contract address). In week03, a script `vesting.plutus` is created and its address `vesting.addr` could be created through:
+    >```
+    >cardano-cli address build-script --script-file vesting.plutus --testnet-magic 1097911063 --out-file vesting.addr
+    >```
+    
+  * `cardano-cli query`
+    > After the local cardano node is synced, there will be a file called `node.socket` created inside `testnet/`. In order to use `cardano-cli query`, we need to let the machine know where is the chain we referring to. In this particular course, we refer to the local node and build the connection through:
+    > ```
+    > export CARDANO_NODE_SOCKET_PATH=node.socket
+    > ```
+    1. To query the address balance:
+    >```
+    >cardano-cli query utxo --address $(cat 01.addr) --testnet-magic 1097911063
+    >```
 
 ## Skeleton for my own quick reference use
 * BIG TOPIC
