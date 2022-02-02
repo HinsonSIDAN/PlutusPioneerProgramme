@@ -7,7 +7,7 @@ Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgr
 
 1. Download the latest cardano node (as of md date most updated version: [(1.33.0)](https://github.com/input-output-hk/cardano-node/releases/tag/1.33.0)
 * I use the hydra binaries as Lars, more specifically the [(cardano-node-macos)](https://hydra.iohk.io/build/9941204) version, you can find your respective version [(here)](https://hydra.iohk.io/build/9941098#tabs-constituents)
-2. Save the unzip folder wherever you like, for me, I created a `testnet_1.33` folder inside the `testnet` folder in `week03`:
+2. Save the unzip folder wherever you like, for me, I created a `testnet_1.33` folder inside the `testnet` folder in `week03`, and saved the `cardano-node-1.33.0-macos` folder inside:
 >```
 >~/Desktop/Plutus-Pioneer-Program/plutus-pioneer-program/code/week03/testnet/testnet_1.33/
 >```
