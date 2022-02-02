@@ -92,6 +92,11 @@ Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgr
     >```
     >cardano-cli query utxo --address $(cat 01.addr) --testnet-magic 1097911063
     >```
+    
+    2. To create the protocol parameter as `protocol.json`:
+    >```
+    >cardano-cli query protocol-parameters --testnet-magic 1097911063 --out-file protocol.json
+    >```
 
 ## Skeleton for my own quick reference use
 * BIG TOPIC
