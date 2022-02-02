@@ -75,7 +75,7 @@ Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgr
     
     3. Create payment key-hash for smart contract uses, e.g. creating a key hash for address 02 and put the result in `02.pkh`.
     >```
-    >cardano-cli address key-hash --payment-verification-key-file 02.vkey --outfile 02.pkh
+    >cardano-cli address key-hash --payment-verification-key-file 02.vkey --out-file 02.pkh
     >```
     
     4. To create script address (smart contract address). In week03, a script `vesting.plutus` is created and its address `vesting.addr` could be created through:
