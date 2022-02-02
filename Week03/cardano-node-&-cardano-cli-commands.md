@@ -58,8 +58,8 @@ Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgr
   * `cardano-cli address`
     1. To create addresses with a pair of verification key and signing key. E.g. creating a `01` address & `02` address as below:
     >```
-    >cardano-cli address key-gen --verification-key-file 01.vkey --signing-keyfile 01.skey
-    >cardano-cli address key-gen --verification-key-file 02.vkey --signing-keyfile 02.skey
+    >cardano-cli address key-gen --verification-key-file 01.vkey --signing-key-file 01.skey
+    >cardano-cli address key-gen --verification-key-file 02.vkey --signing-key-file 02.skey
     >```
     Looking at the details of keys:
     >```
