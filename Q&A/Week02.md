@@ -39,7 +39,3 @@ Offical Q&A by Lars Brünjes: [PPP-Cohort3-Lecture4](https://zoom.us/rec/share/B
 ### [25:07] Cannot catch, please supplement if any.
 
 ### [27:24] 
-
-## Preparation for Lecture 4
-
-Before we can get started in lecture 4, we first must get our development environment up to date. You can copy and paste any of the code in this guide directly into your terminal or IDE.
