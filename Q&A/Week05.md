@@ -8,6 +8,9 @@ Offical Q&A by Lars Brünjes: [PPP-Cohort3-Q&A-5](https://zoom.us/rec/share/B60B
 
 # Week05 Q&A
 
-
-### [9:55] Is it possible to deploy smart contract on testnet and use cli tools to interact with it?
->A: Yes, it will be covered in the third lecture.
+### [7:00] PAB explanation
+>A: PAB wants to support 2 cases
+> 1. Hosted scenario: PAB likes the executable in your computer (like the nodes, wallet, chain index)
+>    * PAB has access to the wallet (help signing on behalf of the wallet
+>    * PAB is triggered from the outside endpoint
+> 2. Only partially available: The server runs the PAB, which creates the unsigned transaction, then it popped up in user wallet and then confirm to sign.
