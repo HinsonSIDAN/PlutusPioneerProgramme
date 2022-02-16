@@ -4,7 +4,7 @@ Jan 25, 2022
 Contributed By:
 Whatever [SIDAN]
 
-Offical Q&A by Lars Brünjes: [PPP-Cohort3-Lecture4](https://zoom.us/rec/share/Bvml-WCrb2C5NzCtiZr_RXtyiZneujZ-ERAW2ep3G9buH5TD9BWJoNgWsVsFKoM.FiOLRPX4rvunKgIm) | Password: Refer to Pioneer Channel
+Offical Q&A by Lars Brünjes: [PPP-Cohort3-Q&A-5](https://zoom.us/rec/share/Bvml-WCrb2C5NzCtiZr_RXtyiZneujZ-ERAW2ep3G9buH5TD9BWJoNgWsVsFKoM.FiOLRPX4rvunKgIm) | Password: Refer to Pioneer Channel
 
 # Week02 Q&A
 
