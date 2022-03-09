@@ -45,6 +45,10 @@
 ### Step 9: Make sure your `env.sh` is updated with your `ADDRESS` & `WALLETID`
 * #### `ADDRESS` could be either updated through Step 3 or use `./get-address.sh` and randomly choose one.
 * #### `WALLETID` should follow along Step 4.
+* Make sure your `env.sh` variable is used in your shell through:
+>```
+>. env.sh
+>```
 
 ### Step 10: Mint Token through activating the contract `mint-token-curl.sh`
 >```
