@@ -1,5 +1,7 @@
 # To note the process of playing with PAB
 
+### Step 0: Running a cardano node
+
 ### Step 1: Run the `start-testnet-wallet.sh`
 >```
 >./start-testnet-wallet.sh
