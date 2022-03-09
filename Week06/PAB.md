@@ -1,4 +1,4 @@
-# To note the process of playing with PAB
+# Mint with PAB Step-by-Step guide
 
 ### Step 0: Running a cardano node
 
