@@ -1,4 +1,4 @@
-# Week03
+# Week03 Cardano Node & Cardano-cli Commands
 
 ## Pre-setup
 Following [(my setup habit)](https://github.com/SIDANWhatever/PlutusPioneerProgramme/blob/main/Week01-code-summary.md), I cloned the week03 material on my macbook.
