@@ -30,4 +30,9 @@ extra-experimental-features = flakes
 ```
 5 restart mac
 
+6. Adding path to `~/.bash_profile`:
+```
+export PATH=/nix/var/nix/profiles/default/bin/:$PATH
+```
+
 ## Uninstalling
